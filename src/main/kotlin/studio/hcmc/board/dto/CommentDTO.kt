@@ -9,7 +9,6 @@ sealed interface CommentDTO : DataTransferObject {
         val body: String,
         val writerNickname: String,
         val writerPassword: String,
-        val writerAddress: String
     ) : CommentDTO
 
     @Serializable
